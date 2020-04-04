@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CBEDF0AA2438DC200092AA09 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CBEDF0A92438DC200092AA09 /* main.cpp */; };
+		CBEDF0AA2438DC200092AA09 /* QuickSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CBEDF0A92438DC200092AA09 /* QuickSort.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +24,10 @@
 
 /* Begin PBXFileReference section */
 		CBEDF0A62438DC200092AA09 /* QuickSort */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = QuickSort; sourceTree = BUILT_PRODUCTS_DIR; };
-		CBEDF0A92438DC200092AA09 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		CBEDF0A92438DC200092AA09 /* QuickSort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = QuickSort.cpp; sourceTree = "<group>"; };
+		CBEDF0B02438DC930092AA09 /* output.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = output.txt; sourceTree = "<group>"; };
+		CBEDF0B12438DC930092AA09 /* 10000input.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 10000input.txt; sourceTree = "<group>"; };
+		CBEDF0B22438DC930092AA09 /* input.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = input.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +44,9 @@
 		CBEDF09D2438DC200092AA09 = {
 			isa = PBXGroup;
 			children = (
+				CBEDF0B12438DC930092AA09 /* 10000input.txt */,
+				CBEDF0B22438DC930092AA09 /* input.txt */,
+				CBEDF0B02438DC930092AA09 /* output.txt */,
 				CBEDF0A82438DC200092AA09 /* QuickSort */,
 				CBEDF0A72438DC200092AA09 /* Products */,
 			);
@@ -57,7 +63,7 @@
 		CBEDF0A82438DC200092AA09 /* QuickSort */ = {
 			isa = PBXGroup;
 			children = (
-				CBEDF0A92438DC200092AA09 /* main.cpp */,
+				CBEDF0A92438DC200092AA09 /* QuickSort.cpp */,
 			);
 			path = QuickSort;
 			sourceTree = "<group>";
@@ -119,7 +125,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CBEDF0AA2438DC200092AA09 /* main.cpp in Sources */,
+				CBEDF0AA2438DC200092AA09 /* QuickSort.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
