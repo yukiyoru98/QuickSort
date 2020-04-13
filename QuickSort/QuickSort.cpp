@@ -36,10 +36,11 @@ void QuickSort(vector<int> &vec, int start, int end){
 }
 
 int main(){
+    
     vector<int> vec;
     const string inputFile = "input.txt";
     const string outputFile = "output.txt";
-
+    
     //=====Read Input Sequence=====
     ifstream ReadFile(inputFile, ios::in);//declare input file
     //check if file exists
@@ -58,7 +59,8 @@ int main(){
     
     //=====Do Quick Sort=====
     QuickSort(vec, 0, n-1);
-    
+    //=======================
+       
     //=====Output Sorted Sequence=====
     ofstream WriteFile(outputFile, ios::out | ios::trunc);//declare output file
     //check if file exists
@@ -67,8 +69,10 @@ int main(){
         exit(1);
     }
     
+    WriteFile << n << '\n'; //write first line(total numbers)
     for(int i=0; i<n; i++){ //read the sorted numbers in vector and write into file
         WriteFile << vec[i] << '\n';
+        
     }
     
     return 0;
